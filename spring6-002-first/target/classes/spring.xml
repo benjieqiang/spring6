@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 该文件可以随便起名；
+        bean的属性：
+            id属性：代表对象的唯一标识。类似于身份证号，不能重复；
+            class属性：必须是全限定类名（带包名）
+     -->
+    <bean id="userBean" class="com.ben.spring6.bean.User"> </bean>
+    <bean id="userDaoImplForMySQLBean" class="com.ben.spring6.dao.impl.UserDaoImplForMySQL"></bean>
+</beans>
