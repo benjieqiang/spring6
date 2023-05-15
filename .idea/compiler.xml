@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring6-002-first" />
+        <module name="review-reflect" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
