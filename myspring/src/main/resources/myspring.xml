@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--  使用value给简单属性赋值。使用ref给非简单属性赋值。  -->
+    <bean id = "userBean" class="com.ben.myspring.bean.User">
+        <property name="name" value="小强"/>
+        <property name="age" value="19"/>
+        <property name="addr" ref ="addressBean"/>
+    </bean>
+    <bean id = "addressBean" class="com.ben.myspring.bean.Address">
+        <property name="city" value="西安市"/>
+        <property name="address" value="雁塔区"/>
+        <property name="zipCode" value="710000"/>
+
+    </bean>
+
+</beans>

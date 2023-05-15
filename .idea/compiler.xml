@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring6-002-first" />
         <module name="review-reflect" />
+        <module name="myspring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
