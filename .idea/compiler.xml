@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring6-002-first" />
         <module name="review-reflect" />
+        <module name="spring6-002-first" />
         <module name="myspring" />
+        <module name="spring6-008-ioc-annotation" />
+        <module name="spring6-012-aop-realapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

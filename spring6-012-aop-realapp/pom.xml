@@ -5,27 +5,30 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ben</groupId>
-    <artifactId>myspring</artifactId>
+    <artifactId>spring6-012-aop-realapp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <dependencies>
-        <!--   解析xml   -->
+        <!--spring context依赖：使用的是6.0.0-->
         <dependency>
-            <groupId>org.dom4j</groupId>
-            <artifactId>dom4j</artifactId>
-            <version>2.1.3</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>6.0.0</version>
         </dependency>
+        <!-- Spring+AspectJ的AOP需要引入的依赖  -->
         <dependency>
-            <groupId>jaxen</groupId>
-            <artifactId>jaxen</artifactId>
-            <version>1.2.0</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>6.0.0</version>
         </dependency>
+        <!--junit依赖-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

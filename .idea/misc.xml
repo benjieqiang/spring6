@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/spring6-002-first/pom.xml" />
         <option value="$PROJECT_DIR$/review-reflect/pom.xml" />
         <option value="$PROJECT_DIR$/myspring/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-008-ioc-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-012-aop-realapp/pom.xml" />
       </list>
     </option>
   </component>
